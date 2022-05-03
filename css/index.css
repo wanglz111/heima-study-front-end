@@ -197,4 +197,57 @@ h1 {
 .goods>a {
     float: right;
     margin: 21px 30px;
+    color: #9bceea;
+}
+
+.subjects {
+    margin-top: 37px;
+}
+
+.subjects .title {
+    height: 40px;
+    line-height: 40px;
+}
+
+.subjects .title h2 {
+    float: left;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subjects .title a {
+    float: right;
+    color: #9bceea;
+}
+
+.subjects .content li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+.subjects .content ul:nth-child(5n) {
+    margin-right: 0;
+}
+
+.subjects .content li {
+    box-shadow: 0 0 5px #ccc;
+}
+
+.subjects .content li h3 {
+    padding: 12px 24px 12px;
+    font-size: 16px;
+    color: #000;
+}
+
+.subjects .content li p {
+    padding: 6px 24px 8px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.subjects .content li span {
+    color: orange;
 }
