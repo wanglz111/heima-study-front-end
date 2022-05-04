@@ -217,6 +217,7 @@ h1 {
 
 .subjects .title a {
     float: right;
+    margin-right: 50px;
     color: #9bceea;
 }
 
